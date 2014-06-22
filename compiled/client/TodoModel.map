@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "TodoModel.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "client/TodoModel.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;mSAAA;;AAAA,EAAM,MAAM,CAAC;AACX,gCAAA,CAAA;;;;KAAA;;AAAA,wBAAA,QAAA,GACE;AAAA,MAAA,KAAA,EAAO,EAAP;AAAA,MACA,SAAA,EAAW,KADX;KADF,CAAA;;qBAAA;;KAD6B,QAAQ,CAAC,MAAxC,CAAA;AAAA"
+}

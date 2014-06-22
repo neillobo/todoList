@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+</head>
+<body>
+<script src="lib/jquery.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="compiled/client/App.js"></script>
+<script src="compiled/client/TodoModel.js"></script>
+<script src="compiled/client/Todos.js"></script>
+<script src="compiled/client/TodoView.js"></script>
+<script src="compiled/client/TodoListView.js"></script>
+  <h1>Todo List</h1>
+<script>
+  var t1 = new TodoModel({title: "yada yada yada"});
+  var t2 = new TodoModel({title: "Whats up"});
+  var t3 = new TodoModel({title: "Yo"});
+
+  var tc = new TodoList([t1,t2,t3]);
+  var tcv = new TodoListView({collection: tc});
+
+</script>
+
+</body>
+</html>
